@@ -1,0 +1,81 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #fff7f0;
+  color: #333;
+  padding: 60px 20px;
+}
+section {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  max-width: 450px;
+  margin: auto;
+  padding: 40px 30px;
+  border-top: 5px solid #ff8c00;
+}
+h2 {
+  color: #d94f04;
+  font-size: 26px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #333;
+}
+
+select,
+input[type="date"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fffdfc;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+select:focus,
+input[type="date"]:focus {
+  border-color: #f06b00;
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #ff6a00;
+  color: #fff;
+  padding: 14px 22px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #d95100;
+}
+
+@media screen and (max-width: 500px) {
+  section {
+    width: 90%;
+    padding: 25px 20px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+}
